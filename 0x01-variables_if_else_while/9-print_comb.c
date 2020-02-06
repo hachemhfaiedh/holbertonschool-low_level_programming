@@ -9,7 +9,7 @@ int c = 48;
 int co = 44;
 int s = 32;
 for (c = 48; c <= 57; c++)
-{   
+{
 putchar(c);
 if (c < 57)
 {
