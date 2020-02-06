@@ -1,0 +1,23 @@
+#include <stdio.h>
+/**
+*main - main function
+*@void: empty
+*Return: 0
+*/
+int main(void)
+{
+char c = 'a';
+char C = 'A';
+char c2 = '\n';
+for (c = 'a' ; c <= 'z' ; c++)
+{
+putchar (c);
+}
+putchar (c2);
+for (C = 'A' ; C <= 'Z' ; C++)
+{
+putchar (C);
+}
+putchar (c2);
+return (0);
+}
