@@ -1,12 +1,13 @@
 #include "holberton.h"
 /**
- *_islower - main function
- *return: 0
+ * _islower - main function
+ * @c: integer
+ * Return: 0
  */
 int _islower(int c)
 {
-if(c >= 'a' && c <= 'z')
-return(1);
+if (c >= 'a' && c <= 'z')
+return (1);
 else
-return(0);
+return (0);
 }

@@ -1,6 +1,7 @@
 #include "holberton.h"
 /**
  * _isalpha - main function
+ * @c: integer
  * Return: 0
  */
 int _isalpha(int c)
