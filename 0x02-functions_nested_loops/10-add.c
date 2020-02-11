@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * add - main func
+ * add - main function
  * @a: parameter
  * @b: parameter
  * Return: r
