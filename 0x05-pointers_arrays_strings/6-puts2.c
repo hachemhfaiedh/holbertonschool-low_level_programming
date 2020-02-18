@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * puts - main function
+ * puts2 - main function
  * @str: parameter
  * Retun: void
  */
