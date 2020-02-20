@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
  * *rot13 - main function
- * @s: parameter
- * Return: s
+ *@s: parameter
+ *Return: s
  */
 char *rot13(char *s)
 {
