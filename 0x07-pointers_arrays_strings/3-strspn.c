@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * int_strspn - main function
+ * _strspn - main function
  * @s: parameter
  * @accept: parameter
  * Return: n
