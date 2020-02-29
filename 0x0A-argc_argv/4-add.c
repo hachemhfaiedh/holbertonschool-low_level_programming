@@ -19,6 +19,11 @@ int main(int argc, char *argv[])
 			printf("Error\n");
 			return (1);
 		}
+		if (argc < 2)
+		{
+			printf("0\n");
+			return (0);
+		}
 	}
 	printf("%d\n", c);
 	return (0);
