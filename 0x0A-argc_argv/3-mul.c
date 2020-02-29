@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
 {
 	int c;
 	char u[100] = "Error";
+
 	if (argc != 3)
 	{
 		printf("%s\n", u);
