@@ -14,7 +14,7 @@ char *argstostr(int ac, char **av)
 	if (ac == 0 || av == NULL)
 		return (NULL);
 	for (i = 0; i < ac; i++)
-		for (j = 0; j < av[i][j]; j++)
+		for (j = 0; av[i][j] != '\0'; j++)
 			f += av[i][j];
 
 	one = malloc(f);
@@ -22,7 +22,7 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 	for (i = 0; i < ac; i++)
 	{
-		for (j = 0; j < av[i][j]; j++)
+		for (j = 0; av[i][j] != '\0'; j++)
 		{
 			one[a] = av[i][j];
 			a++;
