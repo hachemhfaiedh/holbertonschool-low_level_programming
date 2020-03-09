@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include "dog.h"
 #include <stdlib.h>
+/**
+ * print_dog - main function
+ * @d: parameter
+ * Return: void
+ */
 void print_dog(struct dog *d)
 {
 	/*char *name;
