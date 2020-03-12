@@ -13,17 +13,17 @@ int main(int argc, char **argv)
 
 	if (argc != 4)
 	{
-		puts("Error\n");
+		puts("Error");
 		exit(98);
 	}
 	if (get_op_func(argv[2]) == NULL)
 	{
-		puts("Error\n");
+		puts("Error");
 		exit(99);
 	}
 	if ((*argv[2] == '/' || *argv[2] == '%') && *argv[3] == '0')
 	{
-		puts("Error\n");
+		puts("Error");
 		exit(100);
 	}
 	i = atoi(argv[1]);
