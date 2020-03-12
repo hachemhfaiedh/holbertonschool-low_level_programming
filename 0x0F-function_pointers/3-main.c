@@ -9,7 +9,7 @@
  */
 int main(int argc, char **argv)
 {
-	int i = 0, j = 0;
+	int i, j;
 
 	if (argc != 4)
 	{
@@ -18,12 +18,12 @@ int main(int argc, char **argv)
 	}
 	if (get_op_func(argv[2]) == NULL)
 	{
-		puts("Error");
+		puts("Error\n");
 		exit(99);
 	}
 	if ((*argv[2] == '/' || *argv[2] == '%') && *argv[3] == '0')
 	{
-		puts("Error");
+		puts("Error\n");
 		exit(100);
 	}
 	i = atoi(argv[1]);
