@@ -1,0 +1,23 @@
+#include "holberton.h"
+/**
+ * *_memcpy - main function
+ * @dest: parameter
+ * @src: parameter
+ * @n: parameter
+ * Return: dest
+ */
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+unsigned int i = 0, j;
+while (dest[i] != '\0')
+i++;
+for (j = 0; j < n && src[j] != '\0'; j++)
+{
+dest[j] = src[j];
+}
+for ( ; j < n; j++)
+{
+dest[j] = '\0';
+}
+return (dest);
+}
