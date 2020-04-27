@@ -1,0 +1,16 @@
+#include <stdio.h>
+/**
+*main - main function
+*@void: empty
+*Return: 0
+*/
+int main(void)
+{
+char c = 'a';
+char c2 = '\n';
+do {
+putchar (c);
+} while (c != 'e' && c != 'q');
+putchar (c2);
+return (0);
+}

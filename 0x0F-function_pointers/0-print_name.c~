@@ -1,0 +1,10 @@
+#include "function_pointers.h"
+
+void print_name(char *name, void (*f)(char *))
+{
+	int i = 0;
+	while (name[i] != '\0')
+		i++;
+	f = name[i];
+	return;
+}

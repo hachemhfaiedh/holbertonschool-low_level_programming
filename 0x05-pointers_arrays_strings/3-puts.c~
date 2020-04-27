@@ -1,0 +1,16 @@
+#include "holberton.h"
+void _puts(char *str)
+{
+  /*int j;*/
+  int i = 0;
+  while (str[i] != '\0')
+    {
+    i++;
+    /*for (j = str[i]; j < '\0'; j++)
+      {
+	_putchar (j);
+	}*/
+    _putchar (i);
+    }
+  _putchar ('\n');
+}

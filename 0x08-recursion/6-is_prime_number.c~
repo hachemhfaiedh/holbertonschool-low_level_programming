@@ -1,0 +1,16 @@
+#include "holberton.h"
+int prime_number(int i, int n)
+{
+	if (n < 2)
+		return (0);
+	else if (n == i)
+		return (1);
+	else if (n % i != 0)
+		return (prime_number(i + 1, n);
+
+}
+int is_prime_number(int n)
+		{
+	return (prime_number(2, n);
+		}
+		

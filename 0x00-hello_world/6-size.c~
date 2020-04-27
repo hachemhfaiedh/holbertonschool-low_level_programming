@@ -1,0 +1,14 @@
+#include <stdio.h>
+/**
+ * function_name - Short description, single line
+ * @parameterx: Description of parameter x
+ * Description: Longer description of the function)?
+ * Return: Description of the returned value
+ */
+int main(void)
+{
+printf("%lu\n", sizeof(char));
+printf("%lu\n", sizeof(int));
+printf("%lu\n", sizeof(float));
+ return (0);
+}
